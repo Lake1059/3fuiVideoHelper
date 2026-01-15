@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -50,9 +50,11 @@ Partial Class Form1
         UiButton暂停 = New Sunny.UI.UIButton()
         UiButton播放 = New Sunny.UI.UIButton()
         UiButton打开 = New Sunny.UI.UIButton()
+        Panel4 = New Panel()
         CType(VideoView1, ComponentModel.ISupportInitialize).BeginInit()
         Panel2.SuspendLayout()
         Panel3.SuspendLayout()
+        Panel4.SuspendLayout()
         SuspendLayout()
         ' 
         ' VideoView1
@@ -63,7 +65,7 @@ Partial Class Form1
         VideoView1.Location = New Point(0, 0)
         VideoView1.MediaPlayer = Nothing
         VideoView1.Name = "VideoView1"
-        VideoView1.Size = New Size(827, 435)
+        VideoView1.Size = New Size(900, 480)
         VideoView1.TabIndex = 0
         VideoView1.Text = "VideoView1"
         ' 
@@ -71,9 +73,9 @@ Partial Class Form1
         ' 
         Panel1.BackColor = Color.FromArgb(CByte(48), CByte(48), CByte(48))
         Panel1.Dock = DockStyle.Bottom
-        Panel1.Location = New Point(0, 525)
+        Panel1.Location = New Point(0, 615)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(827, 30)
+        Panel1.Size = New Size(900, 30)
         Panel1.TabIndex = 1
         ' 
         ' Panel2
@@ -90,10 +92,10 @@ Partial Class Form1
         Panel2.Controls.Add(Label8)
         Panel2.Controls.Add(UiButton去入点)
         Panel2.Dock = DockStyle.Bottom
-        Panel2.Location = New Point(0, 475)
+        Panel2.Location = New Point(0, 565)
         Panel2.Name = "Panel2"
         Panel2.Padding = New Padding(10)
-        Panel2.Size = New Size(827, 50)
+        Panel2.Size = New Size(900, 50)
         Panel2.TabIndex = 2
         ' 
         ' UiButton去出点
@@ -111,7 +113,7 @@ Partial Class Form1
         UiButton去出点.ForeHoverColor = Color.Silver
         UiButton去出点.ForePressColor = Color.Silver
         UiButton去出点.ForeSelectedColor = Color.Silver
-        UiButton去出点.Location = New Point(600, 10)
+        UiButton去出点.Location = New Point(640, 10)
         UiButton去出点.MinimumSize = New Size(1, 1)
         UiButton去出点.Name = "UiButton去出点"
         UiButton去出点.Radius = 30
@@ -128,7 +130,7 @@ Partial Class Form1
         ' Label9
         ' 
         Label9.Dock = DockStyle.Left
-        Label9.Location = New Point(590, 10)
+        Label9.Location = New Point(630, 10)
         Label9.Name = "Label9"
         Label9.Size = New Size(10, 30)
         Label9.TabIndex = 103
@@ -148,7 +150,7 @@ Partial Class Form1
         UiButton定为出点.ForeHoverColor = Color.Silver
         UiButton定为出点.ForePressColor = Color.Silver
         UiButton定为出点.ForeSelectedColor = Color.Silver
-        UiButton定为出点.Location = New Point(490, 10)
+        UiButton定为出点.Location = New Point(520, 10)
         UiButton定为出点.MinimumSize = New Size(1, 1)
         UiButton定为出点.Name = "UiButton定为出点"
         UiButton定为出点.Radius = 30
@@ -157,7 +159,7 @@ Partial Class Form1
         UiButton定为出点.RectHoverColor = Color.DarkGray
         UiButton定为出点.RectPressColor = Color.FromArgb(CByte(64), CByte(148), CByte(64))
         UiButton定为出点.RectSelectedColor = Color.DarkGray
-        UiButton定为出点.Size = New Size(100, 30)
+        UiButton定为出点.Size = New Size(110, 30)
         UiButton定为出点.TabIndex = 99
         UiButton定为出点.Text = "定为出点"
         UiButton定为出点.TipsFont = New Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(134))
@@ -165,7 +167,7 @@ Partial Class Form1
         ' Label7
         ' 
         Label7.Dock = DockStyle.Left
-        Label7.Location = New Point(480, 10)
+        Label7.Location = New Point(510, 10)
         Label7.Name = "Label7"
         Label7.Size = New Size(10, 30)
         Label7.TabIndex = 98
@@ -181,7 +183,7 @@ Partial Class Form1
         UiTextBox出点.ForeColor = Color.Silver
         UiTextBox出点.ForeDisableColor = Color.Silver
         UiTextBox出点.ForeReadOnlyColor = Color.Silver
-        UiTextBox出点.Location = New Point(350, 10)
+        UiTextBox出点.Location = New Point(380, 10)
         UiTextBox出点.Margin = New Padding(4, 5, 4, 5)
         UiTextBox出点.MinimumSize = New Size(1, 16)
         UiTextBox出点.Name = "UiTextBox出点"
@@ -201,7 +203,7 @@ Partial Class Form1
         ' Label6
         ' 
         Label6.Dock = DockStyle.Left
-        Label6.Location = New Point(340, 10)
+        Label6.Location = New Point(370, 10)
         Label6.Name = "Label6"
         Label6.Size = New Size(10, 30)
         Label6.TabIndex = 96
@@ -217,7 +219,7 @@ Partial Class Form1
         UiTextBox入点.ForeColor = Color.Silver
         UiTextBox入点.ForeDisableColor = Color.Silver
         UiTextBox入点.ForeReadOnlyColor = Color.Silver
-        UiTextBox入点.Location = New Point(210, 10)
+        UiTextBox入点.Location = New Point(240, 10)
         UiTextBox入点.Margin = New Padding(4, 5, 4, 5)
         UiTextBox入点.MinimumSize = New Size(1, 16)
         UiTextBox入点.Name = "UiTextBox入点"
@@ -237,7 +239,7 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.Dock = DockStyle.Left
-        Label1.Location = New Point(200, 10)
+        Label1.Location = New Point(230, 10)
         Label1.Name = "Label1"
         Label1.Size = New Size(10, 30)
         Label1.TabIndex = 95
@@ -257,7 +259,7 @@ Partial Class Form1
         UiButton定为入点.ForeHoverColor = Color.Silver
         UiButton定为入点.ForePressColor = Color.Silver
         UiButton定为入点.ForeSelectedColor = Color.Silver
-        UiButton定为入点.Location = New Point(100, 10)
+        UiButton定为入点.Location = New Point(120, 10)
         UiButton定为入点.MinimumSize = New Size(1, 1)
         UiButton定为入点.Name = "UiButton定为入点"
         UiButton定为入点.Radius = 30
@@ -266,7 +268,7 @@ Partial Class Form1
         UiButton定为入点.RectHoverColor = Color.DarkGray
         UiButton定为入点.RectPressColor = Color.FromArgb(CByte(64), CByte(148), CByte(64))
         UiButton定为入点.RectSelectedColor = Color.DarkGray
-        UiButton定为入点.Size = New Size(100, 30)
+        UiButton定为入点.Size = New Size(110, 30)
         UiButton定为入点.TabIndex = 94
         UiButton定为入点.Text = "定为入点"
         UiButton定为入点.TipsFont = New Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(134))
@@ -274,7 +276,7 @@ Partial Class Form1
         ' Label8
         ' 
         Label8.Dock = DockStyle.Left
-        Label8.Location = New Point(90, 10)
+        Label8.Location = New Point(110, 10)
         Label8.Name = "Label8"
         Label8.Size = New Size(10, 30)
         Label8.TabIndex = 102
@@ -311,7 +313,7 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.Dock = DockStyle.Left
-        Label2.Location = New Point(80, 10)
+        Label2.Location = New Point(90, 10)
         Label2.Name = "Label2"
         Label2.Size = New Size(10, 30)
         Label2.TabIndex = 1
@@ -319,7 +321,7 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.Dock = DockStyle.Left
-        Label3.Location = New Point(240, 10)
+        Label3.Location = New Point(250, 10)
         Label3.Name = "Label3"
         Label3.Size = New Size(10, 30)
         Label3.TabIndex = 2
@@ -327,7 +329,7 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.Dock = DockStyle.Left
-        Label4.Location = New Point(160, 10)
+        Label4.Location = New Point(170, 10)
         Label4.Name = "Label4"
         Label4.Size = New Size(10, 30)
         Label4.TabIndex = 5
@@ -335,7 +337,7 @@ Partial Class Form1
         ' Label5
         ' 
         Label5.Dock = DockStyle.Left
-        Label5.Location = New Point(320, 10)
+        Label5.Location = New Point(350, 10)
         Label5.Name = "Label5"
         Label5.Size = New Size(10, 30)
         Label5.TabIndex = 7
@@ -356,10 +358,10 @@ Partial Class Form1
         Panel3.Controls.Add(Label2)
         Panel3.Controls.Add(UiButton打开)
         Panel3.Dock = DockStyle.Bottom
-        Panel3.Location = New Point(0, 435)
+        Panel3.Location = New Point(0, 525)
         Panel3.Name = "Panel3"
         Panel3.Padding = New Padding(10, 10, 10, 0)
-        Panel3.Size = New Size(827, 40)
+        Panel3.Size = New Size(900, 40)
         Panel3.TabIndex = 3
         ' 
         ' UiButton给3FUI
@@ -377,7 +379,7 @@ Partial Class Form1
         UiButton给3FUI.ForeHoverColor = Color.Silver
         UiButton给3FUI.ForePressColor = Color.Silver
         UiButton给3FUI.ForeSelectedColor = Color.Silver
-        UiButton给3FUI.Location = New Point(520, 10)
+        UiButton给3FUI.Location = New Point(550, 10)
         UiButton给3FUI.MinimumSize = New Size(1, 1)
         UiButton给3FUI.Name = "UiButton给3FUI"
         UiButton给3FUI.Radius = 30
@@ -394,7 +396,7 @@ Partial Class Form1
         ' Label11
         ' 
         Label11.Dock = DockStyle.Left
-        Label11.Location = New Point(510, 10)
+        Label11.Location = New Point(540, 10)
         Label11.Name = "Label11"
         Label11.Size = New Size(10, 30)
         Label11.TabIndex = 92
@@ -414,7 +416,7 @@ Partial Class Form1
         UiButton进1帧.ForeHoverColor = Color.Silver
         UiButton进1帧.ForePressColor = Color.Silver
         UiButton进1帧.ForeSelectedColor = Color.Silver
-        UiButton进1帧.Location = New Point(425, 10)
+        UiButton进1帧.Location = New Point(455, 10)
         UiButton进1帧.MinimumSize = New Size(1, 1)
         UiButton进1帧.Name = "UiButton进1帧"
         UiButton进1帧.Radius = 30
@@ -431,7 +433,7 @@ Partial Class Form1
         ' Label10
         ' 
         Label10.Dock = DockStyle.Left
-        Label10.Location = New Point(415, 10)
+        Label10.Location = New Point(445, 10)
         Label10.Name = "Label10"
         Label10.Size = New Size(10, 30)
         Label10.TabIndex = 90
@@ -451,7 +453,7 @@ Partial Class Form1
         UiButton倒半秒.ForeHoverColor = Color.Silver
         UiButton倒半秒.ForePressColor = Color.Silver
         UiButton倒半秒.ForeSelectedColor = Color.Silver
-        UiButton倒半秒.Location = New Point(330, 10)
+        UiButton倒半秒.Location = New Point(360, 10)
         UiButton倒半秒.MinimumSize = New Size(1, 1)
         UiButton倒半秒.Name = "UiButton倒半秒"
         UiButton倒半秒.Radius = 30
@@ -480,7 +482,7 @@ Partial Class Form1
         UiButton停止.ForeHoverColor = Color.Silver
         UiButton停止.ForePressColor = Color.Silver
         UiButton停止.ForeSelectedColor = Color.Silver
-        UiButton停止.Location = New Point(250, 10)
+        UiButton停止.Location = New Point(280, 10)
         UiButton停止.MinimumSize = New Size(1, 1)
         UiButton停止.Name = "UiButton停止"
         UiButton停止.Radius = 30
@@ -509,7 +511,7 @@ Partial Class Form1
         UiButton暂停.ForeHoverColor = Color.Silver
         UiButton暂停.ForePressColor = Color.Silver
         UiButton暂停.ForeSelectedColor = Color.Silver
-        UiButton暂停.Location = New Point(170, 10)
+        UiButton暂停.Location = New Point(200, 10)
         UiButton暂停.MinimumSize = New Size(1, 1)
         UiButton暂停.Name = "UiButton暂停"
         UiButton暂停.Radius = 30
@@ -538,7 +540,7 @@ Partial Class Form1
         UiButton播放.ForeHoverColor = Color.Silver
         UiButton播放.ForePressColor = Color.Silver
         UiButton播放.ForeSelectedColor = Color.Silver
-        UiButton播放.Location = New Point(90, 10)
+        UiButton播放.Location = New Point(120, 10)
         UiButton播放.MinimumSize = New Size(1, 1)
         UiButton播放.Name = "UiButton播放"
         UiButton播放.Radius = 30
@@ -586,7 +588,7 @@ Partial Class Form1
         AutoScaleDimensions = New SizeF(96F, 96F)
         AutoScaleMode = AutoScaleMode.Dpi
         BackColor = Color.FromArgb(CByte(36), CByte(36), CByte(36))
-        ClientSize = New Size(827, 555)
+        ClientSize = New Size(900, 615)
         Controls.Add(VideoView1)
         Controls.Add(Panel3)
         Controls.Add(Panel2)
@@ -600,6 +602,8 @@ Partial Class Form1
         CType(VideoView1, ComponentModel.ISupportInitialize).EndInit()
         Panel2.ResumeLayout(False)
         Panel3.ResumeLayout(False)
+        Panel4.ResumeLayout(False)
+        Panel4.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -631,5 +635,6 @@ Partial Class Form1
     Friend WithEvents Label10 As Label
     Friend WithEvents UiButton给3FUI As Sunny.UI.UIButton
     Friend WithEvents Label11 As Label
+    Friend WithEvents Panel4 As Panel
 
 End Class
